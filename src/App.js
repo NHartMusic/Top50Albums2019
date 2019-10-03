@@ -1,11 +1,12 @@
 import React from 'react'
+import StyledAppbar from './components/ui/navbar'
 
 import './App.css'
 
 function App() {
   return (
     <div className="App">
-      Fuck the Grateful Dead
+      <StyledAppbar />
     </div>
   )
 }
