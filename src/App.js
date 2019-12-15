@@ -1,12 +1,15 @@
 import React from 'react'
-import StyledAppbar from './components/ui/navbar'
+import { Level1, Level2, Level3, Level4 } from './components/layers'
 
 import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <StyledAppbar />
+      <Level1 />
+      <Level2 />
+      <Level3 />
+      <Level4 />
     </div>
   )
 }
