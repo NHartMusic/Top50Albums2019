@@ -6,7 +6,7 @@ const Level2 = styled.div`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: turquoise;
+    background: linear-gradient(90deg, #99B2DD 40%, #F9DEC9 60%);
     height: 100px;
 `
 

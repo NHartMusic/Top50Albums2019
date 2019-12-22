@@ -1,5 +1,5 @@
 import React from 'react'
-import { Level1, Level2, Level3, Level4 } from './components/layers'
+import { Level1, Level2, Level3, Level4, Level5, Level6, Level7 } from './components/layers'
 
 import './App.css'
 
@@ -10,6 +10,9 @@ function App() {
       <Level2 />
       <Level3 />
       <Level4 />
+      <Level5 />
+      <Level6 />
+      <Level7 />
     </div>
   )
 }
