@@ -1,20 +1,39 @@
 import React from 'react'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
+import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
-import { Slimboi } from '../ui/typography'
+import { GrunTee, JailorSerry } from '../ui/colors'
 
-const Level2 = styled.div`
+const Album = styled(ExpansionPanelSummary)`
+    display: flex;
+    margin: 0 auto;
+    background: ${GrunTee};
+    height: 20px;
+    box-shadow: 0px;
+`
+
+const Details = styled(ExpansionPanelDetails)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: linear-gradient(90deg, #99B2DD 40%, #F9DEC9 60%);
+    background: ${JailorSerry};
     height: 100px;
 `
 
-export default props =>
-    <Level2 position='static'>
+export default function SimpleExpansionPanel() {
+    return (
+        <div className="level_2">
+            <ExpansionPanel>
+                <Album>
+                    <Thiccboi>2. Tyler, The Creator - Igor</Thiccboi>
+                </Album>
+                <Details>
 
-        <Slimboi >
-            N H
-        </Slimboi>
+                </Details>
+            </ExpansionPanel>
 
-    </Level2>
+        </div>
+    )
+}

@@ -5,5 +5,6 @@ import Level4 from './level4'
 import Level5 from './level5'
 import Level6 from './level6'
 import Level7 from './level7'
+import Level8 from './level8'
 
-export { Level1, Level2, Level3, Level4, Level5, Level6, Level7 }
+export { Level1, Level2, Level3, Level4, Level5, Level6, Level7, Level8 }

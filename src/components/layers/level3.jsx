@@ -1,20 +1,39 @@
 import React from 'react'
-import styled from 'styled-components'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
 import { Thiccboi } from '../ui/typography'
+import styled from 'styled-components'
+import { SailorJerry, Peaaches } from '../ui/colors'
 
-const Level3 = styled.div`
+const Album = styled(ExpansionPanelSummary)`
+    display: flex;
+    margin: 0 auto;
+    background: ${SailorJerry};
+    height: 20px;
+    box-shadow: 0px;
+`
+
+const Details = styled(ExpansionPanelDetails)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: linear-gradient(90deg, #413C58 0%, #A3C4BC 35%, #BFD7B5 100%);
+    background: ${Peaaches};
     height: 100px;
 `
 
-export default props =>
-    <Level3 position='static'>
+export default function SimpleExpansionPanel() {
+    return (
+        <div className="level_3">
+            <ExpansionPanel>
+                <Album>
+                    <Thiccboi>3. Solange - When I Get Home</Thiccboi>
+                </Album>
+                <Details>
 
-        <Thiccboi >
-            N H
-        </Thiccboi>
+                </Details>
+            </ExpansionPanel>
 
-    </Level3>
+        </div>
+    )
+}
