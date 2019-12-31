@@ -17,7 +17,7 @@ const Solange = styled(Album)`
 const Home = styled(Details)`
     display: block;
     background: ${Peaaches};
-    height: 400px;
+    height: 300px;
     text-align: left;
 `
 
@@ -41,12 +41,14 @@ export default function SimpleExpansionPanel() {
                     </Slimboi>
 
                     <Slimboi>
-
+                        When I Got Home is a monumental album. Solange flexes so fucking hard on this album, she literally had Sampha, Panda Bear and Tyler, The 
+                        Creator stop by for ad-libs on one of the mellowest songs here. This album is dreamlike in the way the songs transition into one another, 
+                        it’s powerful in its themes of black female sexuality and artistic expression, and it’s a definitive statement that this is no longer just 
+                        “Beyoncé’s little sister”. This is the new album from the best performer I saw in 2019, and solidified her as one of my favorite artists 
+                        in RnB working today.
                     </Slimboi>
 
-                    <Slimboi>
-                        
-                    </Slimboi>
+                    
 
                 </Home>
             </ExpansionPanel>

@@ -1,12 +1,12 @@
 import React from 'react'
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
-import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
-import { Peaaches, JailorSerry } from '../ui/colors'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+//ui
+import { Thiccboi } from '../ui/typography'
+import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { Peaaches, GrunTee } from '../ui/colors'
 
-const Album = styled(ExpansionPanelSummary)`
+const Vampire = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Peaaches};
@@ -14,26 +14,28 @@ const Album = styled(ExpansionPanelSummary)`
     box-shadow: 0px;
 `
 
-const Details = styled(ExpansionPanelDetails)`
+const Bride = styled(Details)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: ${JailorSerry};
-    height: 100px;
+    background: ${GrunTee};
+    height: 400px;
 `
 
 export default function SimpleExpansionPanel() {
+    const classes = DescriptionAlignment()
+
     return (
-        <div className="level_6">
+        <div className="level_15">
             <ExpansionPanel>
-                <Album>
+                <Vampire>
                     <Thiccboi>15. Vampire Weekend - Father of the Bride </Thiccboi>
-                </Album>
-                <Details>
+                </Vampire>
+                <Bride className={classes.root}>
 
-               
+                    
 
-                </Details>
+                </Bride>
             </ExpansionPanel>
 
         </div>

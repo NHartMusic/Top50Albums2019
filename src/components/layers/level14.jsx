@@ -1,12 +1,12 @@
 import React from 'react'
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
-import { Thiccboi, Slimboi } from '../ui/typography'
 import styled from 'styled-components'
-import { Yurple, GrunTee } from '../ui/colors'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+//ui
+import { Thiccboi } from '../ui/typography'
+import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { Yurple, GothGirlfriend } from '../ui/colors'
 
-const Album = styled(ExpansionPanelSummary)`
+const Twigs = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Yurple};
@@ -14,29 +14,28 @@ const Album = styled(ExpansionPanelSummary)`
     box-shadow: 0px;
 `
 
-const Details = styled(ExpansionPanelDetails)`
-    display: block;
-    background: ${GrunTee};
-    height: 500px;
-    text-align: left;
-`
-
-const Vid = styled.iframe`
+const Magdalene = styled(Details)`
+    display: flex;
+    align-items: center;
     margin: 0 auto;
-    display: block;
+    background: ${GothGirlfriend};
+    height: 400px;
 `
 
 export default function SimpleExpansionPanel() {
+    const classes = DescriptionAlignment()
+
     return (
         <div className="level_14">
             <ExpansionPanel>
-                <Album>
+                <Twigs>
                     <Thiccboi>14. FKA Twigs - Magdalene </Thiccboi>
-                </Album>
-                <Details>
+                </Twigs>
+                <Magdalene className={classes.root}>
 
-            
-                </Details>
+                    
+
+                </Magdalene>
             </ExpansionPanel>
 
         </div>

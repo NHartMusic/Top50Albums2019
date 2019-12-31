@@ -1,37 +1,41 @@
 import React from 'react'
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
-import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
-import { SailorJerry, Perrywinkies } from '../ui/colors'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+//ui
+import { Thiccboi } from '../ui/typography'
+import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { JailorSerry, Cephalopod } from '../ui/colors'
 
-const Album = styled(ExpansionPanelSummary)`
+const Denzel = styled(Album)`
     display: flex;
     margin: 0 auto;
-    background: ${SailorJerry};
+    background: ${JailorSerry};
     height: 20px;
     box-shadow: 0px;
 `
 
-const Details = styled(ExpansionPanelDetails)`
+const Zuu = styled(Details)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: ${Perrywinkies};
-    height: 100px;
+    background: ${Cephalopod};
+    height: 400px;
 `
 
 export default function SimpleExpansionPanel() {
+    const classes = DescriptionAlignment()
+
     return (
         <div className="level_12">
             <ExpansionPanel>
-                <Album>
-                    <Thiccboi>12. Big Thief - UFOF</Thiccboi>
-                </Album>
-                <Details>
+                <Denzel>
+                    <Thiccboi>12. Denzel Curry - ZUU </Thiccboi>
+                </Denzel>
+                <Zuu className={classes.root}>
 
-                </Details>
+                    
+
+                </Zuu>
             </ExpansionPanel>
 
         </div>

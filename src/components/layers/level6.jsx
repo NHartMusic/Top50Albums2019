@@ -1,12 +1,12 @@
 import React from 'react'
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
-import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
-import { Peaaches, PupPup } from '../ui/colors'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+//ui
+import { Thiccboi } from '../ui/typography'
+import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { Peaaches, Cephalopod } from '../ui/colors'
 
-const Album = styled(ExpansionPanelSummary)`
+const Howard = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Peaaches};
@@ -14,26 +14,28 @@ const Album = styled(ExpansionPanelSummary)`
     box-shadow: 0px;
 `
 
-const Details = styled(ExpansionPanelDetails)`
+const Jaime = styled(Details)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: ${PupPup};
-    height: 100px;
+    background: ${Cephalopod};
+    height: 400px;
 `
 
 export default function SimpleExpansionPanel() {
+    const classes = DescriptionAlignment()
+
     return (
         <div className="level_6">
             <ExpansionPanel>
-                <Album>
-                    <Thiccboi>6. Weyes Blood - Titanic Rising </Thiccboi>
-                </Album>
-                <Details>
+                <Howard>
+                    <Thiccboi>6. Brittany Howard - Jaime </Thiccboi>
+                </Howard>
+                <Jaime className={classes.root}>
 
-               
+                    
 
-                </Details>
+                </Jaime>
             </ExpansionPanel>
 
         </div>

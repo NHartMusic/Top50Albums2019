@@ -1,12 +1,12 @@
 import React from 'react'
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
-import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
-import { Perrywinkies, GothGirlfriend } from '../ui/colors'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+//ui
+import { Thiccboi } from '../ui/typography'
+import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { Perrywinkies, JailorSerry } from '../ui/colors'
 
-const Album = styled(ExpansionPanelSummary)`
+const Iver = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Perrywinkies};
@@ -14,26 +14,28 @@ const Album = styled(ExpansionPanelSummary)`
     box-shadow: 0px;
 `
 
-const Details = styled(ExpansionPanelDetails)`
+const I = styled(Details)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: ${GothGirlfriend};
-    height: 100px;
+    background: ${JailorSerry};
+    height: 400px;
 `
 
 export default function SimpleExpansionPanel() {
+    const classes = DescriptionAlignment()
+
     return (
         <div className="level_7">
             <ExpansionPanel>
-                <Album>
+                <Iver>
                     <Thiccboi>7. Bon Iver - i,i </Thiccboi>
-                </Album>
-                <Details>
+                </Iver>
+                <I className={classes.root}>
 
-               
+                    
 
-                </Details>
+                </I>
             </ExpansionPanel>
 
         </div>

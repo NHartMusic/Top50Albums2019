@@ -1,12 +1,12 @@
 import React from 'react'
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
-import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
-import { GrunTee, Peaaches } from '../ui/colors'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+//ui
+import { Thiccboi } from '../ui/typography'
+import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { GrunTee, Wino } from '../ui/colors'
 
-const Album = styled(ExpansionPanelSummary)`
+const Bamba = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${GrunTee};
@@ -14,24 +14,28 @@ const Album = styled(ExpansionPanelSummary)`
     box-shadow: 0px;
 `
 
-const Details = styled(ExpansionPanelDetails)`
+const Mujeres = styled(Details)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: ${Peaaches};
-    height: 100px;
+    background: ${Wino};
+    height: 400px;
 `
 
 export default function SimpleExpansionPanel() {
+    const classes = DescriptionAlignment()
+
     return (
         <div className="level_11">
             <ExpansionPanel>
-                <Album>
-                    <Thiccboi>11. Y La Bamba - Mujeres</Thiccboi>
-                </Album>
-                <Details>
+                <Bamba>
+                    <Thiccboi>11. Y La Bamba - Mujeres </Thiccboi>
+                </Bamba>
+                <Mujeres className={classes.root}>
 
-                </Details>
+                    
+
+                </Mujeres>
             </ExpansionPanel>
 
         </div>
