@@ -1,12 +1,12 @@
 import React from 'react'
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
-import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+//ui 
+import { Thiccboi, Slimboi } from '../ui/typography'
+import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
 import { SailorJerry, Peaaches } from '../ui/colors'
 
-const Album = styled(ExpansionPanelSummary)`
+const Solange = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${SailorJerry};
@@ -14,24 +14,41 @@ const Album = styled(ExpansionPanelSummary)`
     box-shadow: 0px;
 `
 
-const Details = styled(ExpansionPanelDetails)`
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
+const Home = styled(Details)`
+    display: block;
     background: ${Peaaches};
-    height: 100px;
+    height: 400px;
+    text-align: left;
 `
 
 export default function SimpleExpansionPanel() {
+    const classes = DescriptionAlignment()
+
     return (
         <div className="level_3">
             <ExpansionPanel>
-                <Album>
+                <Solange >
                     <Thiccboi>3. Solange - When I Get Home</Thiccboi>
-                </Album>
-                <Details>
+                </Solange>
+                <Home className={classes.root}>
 
-                </Details>
+                    <Slimboi>
+                        As anyone who is friends with me on Facebook knows, my most emotional moment of the year was in the middle of a crowd in Helsinki, Finland. 
+                        It wasn’t my little brothers high school graduation, it wasn’t my tumultuous breakup, it wasn’t the end of Avengers Endgame. No, it was 
+                        standing in front of a barricade at Flow Festival in Helsinki watching Solange bring Erykah Badu out for a surprise duet. I immediately 
+                        felt myself on the brink of tears of joy, and then when I looked to my left to see Earl Sweatshirt standing 5 feet from me on the other 
+                        side of the barricade with the exact same shock and awe reaction, I fucking lost it. I cried. While professional dancers twerked on stage.
+                    </Slimboi>
+
+                    <Slimboi>
+
+                    </Slimboi>
+
+                    <Slimboi>
+                        
+                    </Slimboi>
+
+                </Home>
             </ExpansionPanel>
 
         </div>

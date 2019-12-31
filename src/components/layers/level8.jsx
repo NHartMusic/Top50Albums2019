@@ -27,7 +27,7 @@ export default function SimpleExpansionPanel() {
         <div className="level_8">
             <ExpansionPanel>
                 <Album>
-                    <Thiccboi>8. Y La Bamba - Mujeres </Thiccboi>
+                    <Thiccboi>8. EARTHGANG - Mirrorland</Thiccboi>
                 </Album>
                 <Details>
 

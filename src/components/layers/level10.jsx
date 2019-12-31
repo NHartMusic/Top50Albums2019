@@ -4,12 +4,12 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
 import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
-import { Perrywinkies, GothGirlfriend } from '../ui/colors'
+import { JailorSerry, GothGirlfriend } from '../ui/colors'
 
 const Album = styled(ExpansionPanelSummary)`
     display: flex;
     margin: 0 auto;
-    background: ${Perrywinkies};
+    background: ${JailorSerry};
     height: 20px;
     box-shadow: 0px;
 `
@@ -24,14 +24,12 @@ const Details = styled(ExpansionPanelDetails)`
 
 export default function SimpleExpansionPanel() {
     return (
-        <div className="level_7">
+        <div className="level_10">
             <ExpansionPanel>
                 <Album>
-                    <Thiccboi>7. Bon Iver - i,i </Thiccboi>
+                    <Thiccboi>10. Kaytranada - Bubba </Thiccboi>
                 </Album>
                 <Details>
-
-               
 
                 </Details>
             </ExpansionPanel>
