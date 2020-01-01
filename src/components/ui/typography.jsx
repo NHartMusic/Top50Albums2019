@@ -11,18 +11,18 @@ const Thiccboi = styled.h1`
 
 const Slimboi = styled.p`
     font-family: Helvetica;
-    text align-left;
+    text-align: left;
     font-size: 16px;
     font-weight: 600px;
     color: white;
-    margin: 50px;
+    margin: 15px;
     display: block;
 `
 
 const AlbumTitle = styled.p`
     font-family: Helvetica;
     text-decoration: italics;
-    text align-left;
+    text-align: left;
     font-size: 16px;
     font-weight: 700px;
     color: white;
