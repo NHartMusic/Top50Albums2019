@@ -5,6 +5,20 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 import { Yurple, Cephalopod } from '../ui/colors'
 import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
 import { Thiccboi, Slimboi } from '../ui/typography'
+//media queries
+import { 
+    SmallDesktop, 
+    Tablet, 
+    SmallerTablet, 
+    EvenSmallerTablet, 
+    BigBoyMobile,
+    MediumBoyMobile,
+    RegularBoyMobile,
+    VideoMobile,
+    JustForAngel,
+    SmallBoy,
+    TinyBoy
+ } from '../ui/mediaQueries'
 
 const Angel = styled(Album)`
     display: flex;
@@ -17,8 +31,48 @@ const Angel = styled(Album)`
 const AllMirrors = styled(Details)`
     display: block;
     background: ${Cephalopod};
-    height: 800px;
+    height: 1200px;
     text-align: left;
+
+    @media ${SmallDesktop} {
+        height: 1300px;
+    }
+
+    @media ${Tablet} {
+        height: 1400px;
+    }
+
+    @media ${SmallerTablet} {
+        height: 1500px;
+    }
+
+    @media ${EvenSmallerTablet} {
+        height: 1600px;
+    }
+
+    @media ${BigBoyMobile} {
+        height: 1700px;
+    }
+
+    @media ${MediumBoyMobile} {
+        height: 1800px;
+    }
+
+    @media ${RegularBoyMobile} {
+        height: 1950px;
+    }
+
+    @media ${VideoMobile} {
+        height: 2200px;
+    }
+
+    @media ${JustForAngel} {
+        height: 2440px;
+    }
+
+    @media ${SmallBoy} {
+        height: 2600px;
+    }
 `
 
 export default function SimpleExpansionPanel() {
@@ -51,6 +105,10 @@ export default function SimpleExpansionPanel() {
                        album of the year. An album so fucking good I can feel myself tearing up just thinking about it, while I write this on my phone in a 
                        dive bar in Lower Saxony filled with old men smoking cigars who look like they would kill me if I put on some Angel Olsen right now. 
                     </Slimboi>
+
+                    
+                        <Vid src="https://www.youtube.com/embed/dyDVUA-t5xU" />
+                    
 
                     <Slimboi>
                        Before going on tour with Arcade Fire and creating new wave bangers with Mark Ronson, Olsen was a mainstay for low-key, lo-fi folk music

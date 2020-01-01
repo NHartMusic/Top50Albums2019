@@ -4,38 +4,38 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui
 import { Thiccboi } from '../ui/typography'
 import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
-import { JailorSerry, Cephalopod } from '../ui/colors'
+import { GothGirlfriend, JailorSerry } from '../ui/colors'
 
-const Denzel = styled(Album)`
+const Dey = styled(Album)`
     display: flex;
     margin: 0 auto;
-    background: ${JailorSerry};
+    background: ${GothGirlfriend};
     height: 20px;
     box-shadow: 0px;
 `
 
-const Zuu = styled(Details)`
+const Sisters = styled(Details)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: ${Cephalopod};
-    height: 400px;
+    background: ${JailorSerry};
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
     const classes = DescriptionAlignment()
 
     return (
-        <div className="level_12">
+        <div className="level_33">
             <ExpansionPanel>
-                <Denzel>
-                    <Thiccboi>12. Denzel Curry - ZUU </Thiccboi>
-                </Denzel>
-                <Zuu className={classes.root}>
+                <Dey>
+                    <Thiccboi> 33. Katie Dey - Solipsisters </Thiccboi>
+                </Dey>
+                <Sisters className={classes.root}>
 
                     
 
-                </Zuu>
+                </Sisters>
             </ExpansionPanel>
 
         </div>

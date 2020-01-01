@@ -1,37 +1,41 @@
 import React from 'react'
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
-import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
-import { JailorSerry, GothGirlfriend } from '../ui/colors'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+//ui
+import { Thiccboi } from '../ui/typography'
+import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { Reptile, Peaaches } from '../ui/colors'
 
-const Album = styled(ExpansionPanelSummary)`
+const Kay = styled(Album)`
     display: flex;
     margin: 0 auto;
-    background: ${JailorSerry};
+    background: ${Reptile};
     height: 20px;
     box-shadow: 0px;
 `
 
-const Details = styled(ExpansionPanelDetails)`
+const Bubba = styled(Details)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: ${GothGirlfriend};
-    height: 100px;
+    background: ${Peaaches};
+    height: 400px;
 `
 
 export default function SimpleExpansionPanel() {
-    return (
-        <div className="level_10">
-            <ExpansionPanel>
-                <Album>
-                    <Thiccboi>10. Kaytranada - Bubba </Thiccboi>
-                </Album>
-                <Details>
+    const classes = DescriptionAlignment()
 
-                </Details>
+    return (
+        <div className="level_q0">
+            <ExpansionPanel>
+                <Kay>
+                    <Thiccboi>10. Kaytranada - Bubba </Thiccboi>
+                </Kay>
+                <Bubba className={classes.root}>
+
+                    
+
+                </Bubba>
             </ExpansionPanel>
 
         </div>

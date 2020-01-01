@@ -7,5 +7,7 @@ const Cephalopod = 'linear-gradient(90deg, #00487C 40%, #0496FF 60%)'
 const Peaaches = 'linear-gradient(90deg, #FEB95F 40%, #C2095A 60%)'
 const GothGirlfriend = 'linear-gradient(90deg, #822E81 40%, #1A1B25 60%)'
 const PupPup = 'linear-gradient(90deg, #45462A 40%, #FFA737 60%)'
+const Wino = 'linear-gradient(90deg, #471323 40%, #5B2E48 60%)' 
+const Reptile = 'linear-gradient(90deg, #73AB84 40%, #99D19C 60%)'
 
-export { Yurple, Perrywinkies, GrunTee, SailorJerry, JailorSerry, Cephalopod, Peaaches, GothGirlfriend, PupPup }
+export { Yurple, Perrywinkies, GrunTee, SailorJerry, JailorSerry, Cephalopod, Peaaches, GothGirlfriend, PupPup, Wino, Reptile }

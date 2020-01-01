@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui
-import { Thiccboi, Slimboi } from '../ui/typography'
+import { Thiccboi, Slimboi, Link } from '../ui/typography'
 import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
-import { GrunTee, JailorSerry } from '../ui/colors'
+import { GrunTee, Wino } from '../ui/colors'
 
 const Tyler = styled(Album)`
     display: flex;
@@ -16,8 +16,8 @@ const Tyler = styled(Album)`
 
 const Igor = styled(Details)`
     display: block;
-    background: ${JailorSerry};
-    height: 400px;
+    background: ${Wino};
+    height: 750px;
     text-align: left;
 `
 
@@ -33,7 +33,7 @@ export default function SimpleExpansionPanel() {
                 <Igor className={classes.root}>
 
                     <Slimboi>
-                        I knew Igor was special when I first heard it. I wrote all about it here. I could tell that this was the moment that one of rap’s most 
+                        I knew Igor was special when I first heard it. I wrote all about it here <Link href="https://www.nhiacrkt.com/post/album-review-tyler-the-creator-igor">here</Link>. I could tell that this was the moment that one of rap’s most 
                         interesting and polarizing figures finally settled into what kind of artist he wanted to be. It feels like a timeless album, one that 
                         draws on so many influences from so many past eras of black music, yet is somehow quintessentially 2019.
                     </Slimboi> 
@@ -45,6 +45,8 @@ export default function SimpleExpansionPanel() {
                         toothed dark skin black man whose ego and past antics are finally justified by a successful transformation from an internet edgelord into a 
                         soulful, multifaceted songwriter, producer, pianist and oh so much more. 
                     </Slimboi>  
+
+                    <Vid src="https://www.youtube.com/embed/ceLyMb0MGLE"/>
 
                     <Slimboi>
                         Igor is a practically flawless album, and the best of Tyler’s career. As I said in my review linked above, the closing three tracks here are 

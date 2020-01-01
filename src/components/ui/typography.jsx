@@ -30,4 +30,8 @@ const AlbumTitle = styled.p`
     display: block;
 `
 
-export { Thiccboi, Slimboi, AlbumTitle }
+const Link = styled.a`
+    color: white;
+`
+
+export { Thiccboi, Slimboi, AlbumTitle, Link }

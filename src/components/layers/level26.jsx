@@ -4,38 +4,38 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui
 import { Thiccboi } from '../ui/typography'
 import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
-import { JailorSerry, Cephalopod } from '../ui/colors'
+import { PupPup, GrunTee } from '../ui/colors'
 
-const Denzel = styled(Album)`
+const Sir = styled(Album)`
     display: flex;
     margin: 0 auto;
-    background: ${JailorSerry};
+    background: ${PupPup};
     height: 20px;
     box-shadow: 0px;
 `
 
-const Zuu = styled(Details)`
+const Summer = styled(Details)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: ${Cephalopod};
-    height: 400px;
+    background: ${GrunTee};
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
     const classes = DescriptionAlignment()
 
     return (
-        <div className="level_12">
+        <div className="level_26">
             <ExpansionPanel>
-                <Denzel>
-                    <Thiccboi>12. Denzel Curry - ZUU </Thiccboi>
-                </Denzel>
-                <Zuu className={classes.root}>
+                <Sir>
+                    <Thiccboi> 26. SiR - Chasing Summer</Thiccboi>
+                </Sir>
+                <Summer className={classes.root}>
 
                     
 
-                </Zuu>
+                </Summer>
             </ExpansionPanel>
 
         </div>
