@@ -4,38 +4,38 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui
 import { Thiccboi } from '../ui/typography'
 import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
-import { GothGirlfriend, SailorJerry } from '../ui/colors'
+import { Cephalopod, SailorJerry } from '../ui/colors'
 
-const Simz = styled(Album)`
+const Maxo = styled(Album)`
     display: flex;
     margin: 0 auto;
-    background: ${GothGirlfriend};
+    background: ${Cephalopod};
     height: 20px;
     box-shadow: 0px;
 `
 
-const Grey = styled(Details)`
+const Brandon = styled(Details)`
     display: flex;
     align-items: center;
     margin: 0 auto;
     background: ${SailorJerry};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
     const classes = DescriptionAlignment()
 
     return (
-        <div className="level_13">
+        <div className="level_24">
             <ExpansionPanel>
-                <Simz>
-                    <Thiccboi>13. Little Simz - Grey Area </Thiccboi>
-                </Simz>
-                <Grey className={classes.root}>
+                <Maxo>
+                    <Thiccboi>24. Maxo Kream - Brandon Banks </Thiccboi>
+                </Maxo>
+                <Brandon className={classes.root}>
 
                     
 
-                </Grey>
+                </Brandon>
             </ExpansionPanel>
 
         </div>

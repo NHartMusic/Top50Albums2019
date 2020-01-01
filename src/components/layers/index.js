@@ -13,6 +13,27 @@ import Level12 from './level12'
 import Level13 from './level13'
 import Level14 from './level14'
 import Level15 from './level15'
+import Level16 from './level16'
+import Level17 from './level17'
+import Level18 from './level18'
+import Level19 from './level19'
+import Level20 from './level20'
+import Level21 from './level21'
+import Level22 from './level22'
+import Level23 from './level23'
+import Level24 from './level24'
+import Level25 from './level25'
+import Level26 from './level26'
+import Level27 from './level27'
+import Level28 from './level28'
+import Level29 from './level29'
+import Level30 from './level30'
+import Level31 from './level31'
+import Level32 from './level32'
+import Level33 from './level33'
+import Level34 from './level34'
+import Level35 from './level35'
+
 
 export { 
     Level1, 
@@ -29,5 +50,25 @@ export {
     Level12,
     Level13,
     Level14,
-    Level15
+    Level15,
+    Level16,
+    Level17,
+    Level18,
+    Level19,
+    Level20,
+    Level21,
+    Level22,
+    Level23,
+    Level24,
+    Level25,
+    Level26,
+    Level27,
+    Level28,
+    Level29,
+    Level30,
+    Level31,
+    Level32,
+    Level33,
+    Level34,
+    Level35
 }

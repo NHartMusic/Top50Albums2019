@@ -4,38 +4,38 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui
 import { Thiccboi } from '../ui/typography'
 import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
-import { GothGirlfriend, SailorJerry } from '../ui/colors'
+import { Peaaches, JailorSerry } from '../ui/colors'
 
-const Simz = styled(Album)`
+const Billie = styled(Album)`
     display: flex;
     margin: 0 auto;
-    background: ${GothGirlfriend};
+    background: ${Peaaches};
     height: 20px;
     box-shadow: 0px;
 `
 
-const Grey = styled(Details)`
+const Sleep = styled(Details)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: ${SailorJerry};
-    height: 400px;
+    background: ${JailorSerry};
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
     const classes = DescriptionAlignment()
 
     return (
-        <div className="level_13">
+        <div className="level_25">
             <ExpansionPanel>
-                <Simz>
-                    <Thiccboi>13. Little Simz - Grey Area </Thiccboi>
-                </Simz>
-                <Grey className={classes.root}>
+                <Billie>
+                    <Thiccboi> 25. Billie Eilish - When We Fall Asleep, Where Do We Go?  </Thiccboi>
+                </Billie>
+                <Sleep className={classes.root}>
 
                     
 
-                </Grey>
+                </Sleep>
             </ExpansionPanel>
 
         </div>
