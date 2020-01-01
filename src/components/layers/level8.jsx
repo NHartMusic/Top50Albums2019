@@ -4,12 +4,12 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
 import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
-import { JailorSerry, GrunTee } from '../ui/colors'
+import { PupPup, SailorJerry } from '../ui/colors'
 
 const Album = styled(ExpansionPanelSummary)`
     display: flex;
     margin: 0 auto;
-    background: ${JailorSerry};
+    background: ${PupPup};
     height: 20px;
     box-shadow: 0px;
 `
@@ -18,18 +18,20 @@ const Details = styled(ExpansionPanelDetails)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: ${GrunTee};
+    background: ${SailorJerry};
     height: 100px;
 `
 
 export default function SimpleExpansionPanel() {
     return (
-        <div className="level_4">
+        <div className="level_8">
             <ExpansionPanel>
                 <Album>
-                    <Thiccboi>4. Freddie Gibbs + Madlib - Bandana </Thiccboi>
+                    <Thiccboi>8. EARTHGANG - Mirrorland</Thiccboi>
                 </Album>
                 <Details>
+
+               
 
                 </Details>
             </ExpansionPanel>

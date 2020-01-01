@@ -1,20 +1,41 @@
 import React from 'react'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
+import { Thiccboi } from '../ui/typography'
 import styled from 'styled-components'
-import { Slimboi } from '../ui/typography'
+import { Peaaches, PupPup } from '../ui/colors'
 
-const Level6 = styled.div`
+const Album = styled(ExpansionPanelSummary)`
+    display: flex;
+    margin: 0 auto;
+    background: ${Peaaches};
+    height: 20px;
+    box-shadow: 0px;
+`
+
+const Details = styled(ExpansionPanelDetails)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: linear-gradient(90deg, #99B2DD 40%, #F9DEC9 60%);
+    background: ${PupPup};
     height: 100px;
 `
 
-export default props =>
-    <Level6 position='static'>
+export default function SimpleExpansionPanel() {
+    return (
+        <div className="level_6">
+            <ExpansionPanel>
+                <Album>
+                    <Thiccboi>6. Weyes Blood - Titanic Rising </Thiccboi>
+                </Album>
+                <Details>
 
-        <Slimboi >
-            N H
-        </Slimboi>
+               
 
-    </Level6>
+                </Details>
+            </ExpansionPanel>
+
+        </div>
+    )
+}

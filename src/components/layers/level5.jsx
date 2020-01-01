@@ -1,20 +1,39 @@
 import React from 'react'
-import styled from 'styled-components'
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
 import { Thiccboi } from '../ui/typography'
+import styled from 'styled-components'
+import { GothGirlfriend, Yurple } from '../ui/colors'
 
-const Level5 = styled.div`
+const Album = styled(ExpansionPanelSummary)`
+    display: flex;
+    margin: 0 auto;
+    background: ${GothGirlfriend};
+    height: 20px;
+    box-shadow: 0px;
+`
+
+const Details = styled(ExpansionPanelDetails)`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: linear-gradient(90deg, #E89005 40%, #F42B03 60%);
+    background: ${Yurple};
     height: 100px;
 `
 
-export default props =>
-    <Level5 position='static'>
+export default function SimpleExpansionPanel() {
+    return (
+        <div className="level_5">
+            <ExpansionPanel>
+                <Album>
+                    <Thiccboi>5. Brittany Howard - Jaime </Thiccboi>
+                </Album>
+                <Details>
 
-        <Thiccboi >
-            N H
-        </Thiccboi>
+                </Details>
+            </ExpansionPanel>
 
-    </Level5>
+        </div>
+    )
+}
