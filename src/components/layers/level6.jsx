@@ -19,7 +19,7 @@ const Jaime = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${Cephalopod};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +33,7 @@ export default function SimpleExpansionPanel() {
                 </Howard>
                 <Jaime className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/eXJs5e2fvV0' />
 
                 </Jaime>
             </ExpansionPanel>

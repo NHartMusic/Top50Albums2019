@@ -19,7 +19,7 @@ const Norman = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${GrunTee};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +33,7 @@ export default function SimpleExpansionPanel() {
                 </Lana>
                 <Norman className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/soRjcajliHE' />
 
                 </Norman>
             </ExpansionPanel>

@@ -28,7 +28,7 @@ const Angel = styled(Album)`
 const AllMirrors = styled(Details)`
     display: block;
     background: ${Cephalopod};
-    height: 1200px;
+    height: 900px;
     text-align: left;
 
     @media ${SmallDesktop} {

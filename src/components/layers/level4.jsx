@@ -19,7 +19,7 @@ const Bandana = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${PupPup};
-    height: 200px;
+    height: 470px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -34,12 +34,14 @@ export default function SimpleExpansionPanel() {
                 <Bandana className={classes.root}>
 
                     <Slimboi>
-                        Bandana might be the most gratifying hip hop sequel album ever made. As I wrote about in great depth here, it expands the rapport of its 
-                        collaborators in ways that show them to be obviously learning and growing from each other’s influences. The brotherly bond  between its two 
-                        stars (which can be seen at the end of the video below) is incredibly wholesome for an album largely about drug dealing, the politics of 
-                        racial inequality in America, and various other generally depressing topics. This is bad guy music made by two of the most likeable figures 
+                        Bandana might be the most gratifying hip hop sequel album ever made. As I wrote about in great depth here, it expands the rapport of its
+                        collaborators in ways that show them to be obviously learning and growing from each other’s influences. The brotherly bond  between its two
+                        stars (which can be seen at the end of the video below) is incredibly wholesome for an album largely about drug dealing, the politics of
+                        racial inequality in America, and various other generally depressing topics. This is bad guy music made by two of the most likeable figures
                         in hip hop.
                     </Slimboi>
+
+                    <Vid src='https://www.youtube.com/embed/1alXHOMDBN4' />
 
                 </Bandana>
             </ExpansionPanel>

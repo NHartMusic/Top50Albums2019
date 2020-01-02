@@ -19,7 +19,7 @@ const Mirror = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${SailorJerry};
-    height: 400px;
+    height: 320px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +33,7 @@ export default function SimpleExpansionPanel() {
                 </Earth>
                 <Mirror className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/55CEliYIYNw' />
 
                 </Mirror>
             </ExpansionPanel>
