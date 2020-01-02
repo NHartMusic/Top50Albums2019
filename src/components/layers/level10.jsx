@@ -19,7 +19,7 @@ const Bubba = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${Peaaches};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +33,7 @@ export default function SimpleExpansionPanel() {
                 </Kay>
                 <Bubba className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/sDvo7ruR35E' />
 
                 </Bubba>
             </ExpansionPanel>

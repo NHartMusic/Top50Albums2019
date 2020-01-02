@@ -35,13 +35,13 @@ const Vid = styled.iframe`
     }
 
     @media only screen and ${SmallBoy} {
-        width: 300px;
-        height: 200px;
+        width: 350px;
+        height: 250px;
     }
 
     @media only screen and ${TinyBoy} {
         width: 200px;
-        height: 120px;
+        height: 180px;
     }
 
 `
