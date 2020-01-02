@@ -19,7 +19,7 @@ const Mujeres = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${Wino};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +33,7 @@ export default function SimpleExpansionPanel() {
                 </Bamba>
                 <Mujeres className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/au-mBoepJUA' />                    
 
                 </Mujeres>
             </ExpansionPanel>

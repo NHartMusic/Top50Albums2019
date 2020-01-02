@@ -19,7 +19,7 @@ const Grey = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${SailorJerry};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +33,7 @@ export default function SimpleExpansionPanel() {
                 </Simz>
                 <Grey className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/nobyMYOD5Bg' />                   
 
                 </Grey>
             </ExpansionPanel>

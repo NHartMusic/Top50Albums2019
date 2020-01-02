@@ -19,7 +19,7 @@ const Zuu = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${Cephalopod};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +33,7 @@ export default function SimpleExpansionPanel() {
                 </Denzel>
                 <Zuu className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/GWenb9Noq_A' />
 
                 </Zuu>
             </ExpansionPanel>
