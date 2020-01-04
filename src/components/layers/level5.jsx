@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui
 import { Thiccboi, Slimboi } from '../ui/typography'
-import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { DescriptionAlignment, MainVid, Album, Details } from '../ui/display'
+import { SmallerTablet, RegularBoyMobile, VideoMobile, SmallBoy } from '../ui/mediaQueries'
 import { Wino, Reptile } from '../ui/colors'
 
 const Weyes = styled(Album)`
@@ -18,7 +19,21 @@ const Titanic = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${Reptile};
-    height: 520px;
+    height: 550px;
+
+    @media ${SmallerTablet} {
+        height: 720px;
+    }
+
+    @media ${RegularBoyMobile} {
+        height: 810px;
+    }
+
+    @media ${VideoMobile} {
+        height: 920px;
+    }
+
+    
 `
 
 export default function SimpleExpansionPanel() {
@@ -40,7 +55,7 @@ export default function SimpleExpansionPanel() {
                         Merring, it is an absolute blast to listen to. Never has drowning in a cosmic ocean sounded so glorious.
                     </Slimboi>
 
-                    <Vid src='https://www.youtube.com/embed/RFtRq6t3jOo' />
+                    <MainVid src='https://www.youtube.com/embed/RFtRq6t3jOo' />
 
                     <Slimboi>
                         ALERT: Those are my top 5 albums of the year! Fuck you if you disagree. Fight me on Twitter. The rest of this list will not have any text

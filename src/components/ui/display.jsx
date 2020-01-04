@@ -24,11 +24,28 @@ const Album = styled(ExpansionPanelSummary)`
 
 const Details = styled(ExpansionPanelDetails)`
     display: block;
-    height: 500px;
+    height: 300px;
     text-align: left;
 `
 
 const Vid = styled.iframe`
+    margin: 0 auto;
+    display: block;
+    width: 500px;
+    height: 315px;
+
+    @media only screen and ${VideoMobile} {
+        width: 400px;
+    }
+
+    @media only screen and ${SmallBoy} {
+        width: 350px;
+        height: 250px;
+    }
+
+`
+
+const MainVid = styled(Vid)`
     margin: 0 auto;
     display: block;
     width: 500px;
@@ -50,4 +67,4 @@ const Vid = styled.iframe`
 
 `
 
-export { DescriptionAlignment, Album, Details, Vid }
+export { DescriptionAlignment, Album, Details, Vid, MainVid }

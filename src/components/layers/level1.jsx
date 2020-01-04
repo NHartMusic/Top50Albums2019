@@ -3,14 +3,13 @@ import styled from 'styled-components'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui 
 import { Yurple, Cephalopod } from '../ui/colors'
-import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { DescriptionAlignment, MainVid, Album, Details } from '../ui/display'
 import { Thiccboi, Slimboi } from '../ui/typography'
 //media queries
 import {
     SmallDesktop,
     Tablet,
     SmallerTablet,
-    EvenSmallerTablet,
     BigBoyMobile,
     RegularBoyMobile,
     VideoMobile,
@@ -51,11 +50,11 @@ const AllMirrors = styled(Details)`
     }
 
     @media ${VideoMobile} {
-        height: 1700px;
+        height: 1800px;
     }
 
     @media ${SmallBoy} {
-        height: 2600px;
+        height: 2650px;
     }
 `
 
@@ -91,7 +90,7 @@ export default function SimpleExpansionPanel() {
                     </Slimboi>
 
 
-                    <Vid src="https://www.youtube.com/embed/dyDVUA-t5xU" />
+                    <MainVid src="https://www.youtube.com/embed/dyDVUA-t5xU" />
 
 
                     <Slimboi>

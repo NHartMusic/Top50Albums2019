@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui
 import { Thiccboi, Slimboi, Link } from '../ui/typography'
-import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { DescriptionAlignment, Album, Details } from '../ui/display'
+import { EvenSmallerTablet, RegularBoyMobile, VideoMobile, SmallBoy, TinyBoy } from '../ui/mediaQueries'
 import { GothGirlfriend } from '../ui/colors'
 
 const Nick = styled(Album)`
@@ -20,6 +21,26 @@ const Hart = styled(Details)`
     margin: 0 auto;
     background: ${GothGirlfriend};
     height: 300px;
+
+    @media ${EvenSmallerTablet} {
+        height: 360px;
+    }
+
+    @media ${RegularBoyMobile} {
+        height: 420px;
+    }
+
+    @media ${VideoMobile} {
+        height: 500px
+    }
+
+    @media ${SmallBoy} {
+        height: 620px;
+    }
+
+    @media ${TinyBoy} {
+        height: 870px;
+    }
 `
 
 export default function SimpleExpansionPanel() {
@@ -48,7 +69,7 @@ export default function SimpleExpansionPanel() {
                         for my music which I never use anymore because I don't really make much music anymore. Maybe I will make some more music in the year 2020. Who knows.
                         Here's a <Link href='nhiacrkt.bandcamp.com'>link</Link> to the last music that I released. Here's my <Link href='https://github.com/NHartMusic/Top50Albums2019'>
                             Github</Link> account if you want to see the code that I wrote for this app. It's not the best code that I've ever written but I think it came out pretty
-                    cool and fun and exciting.
+cool and fun and exciting.
                     </Slimboi>
 
                     <Slimboi>

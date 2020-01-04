@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui
 import { Thiccboi, Slimboi, Link } from '../ui/typography'
-import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { DescriptionAlignment, MainVid, Album, Details } from '../ui/display'
+import { SmallerTablet, RegularBoyMobile, VideoMobile, SmallBoy } from '../ui/mediaQueries'
 import { GrunTee, Wino } from '../ui/colors'
 
 const Tyler = styled(Album)`
@@ -18,6 +19,22 @@ const Igor = styled(Details)`
     background: ${Wino};
     height: 600px;
     text-align: left;
+
+    @media ${SmallerTablet} {
+        height: 700px;
+    }
+
+    @media ${RegularBoyMobile} {
+        height: 800px;
+    }
+
+    @media ${VideoMobile} {
+        height: 900px;
+    }
+
+    @media ${SmallBoy} {
+        height: 1150px;
+    }
 `
 
 export default function SimpleExpansionPanel() {
@@ -45,7 +62,7 @@ export default function SimpleExpansionPanel() {
                         soulful, multifaceted songwriter, producer, pianist and oh so much more.
                     </Slimboi>
 
-                    <Vid src="https://www.youtube.com/embed/ceLyMb0MGLE" />
+                    <MainVid src="https://www.youtube.com/embed/ceLyMb0MGLE" />
 
                     <Slimboi>
                         Igor is a practically flawless album, and the best of Tyler’s career. As I said in my review linked above, the closing three tracks here are

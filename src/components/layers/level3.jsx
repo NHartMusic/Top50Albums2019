@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui 
 import { Thiccboi, Slimboi } from '../ui/typography'
-import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { DescriptionAlignment, MainVid, Album, Details } from '../ui/display'
+import { SmallerTablet, RegularBoyMobile, VideoMobile, SmallBoy } from '../ui/mediaQueries'
 import { SailorJerry, Cephalopod } from '../ui/colors'
 
 const Solange = styled(Album)`
@@ -18,6 +19,22 @@ const Home = styled(Details)`
     background: ${Cephalopod};
     height: 550px;
     text-align: left;
+
+    @media ${SmallerTablet} {
+        height: 700px;
+    }
+
+    @media ${RegularBoyMobile} {
+        height: 800px;
+    }
+
+    @media ${VideoMobile} {
+        height: 900px;
+    }
+
+    @media ${SmallBoy} {
+        height: 1150px;
+    }
 `
 
 export default function SimpleExpansionPanel() {
@@ -39,7 +56,7 @@ export default function SimpleExpansionPanel() {
                         side of the barricade with the exact same shock and awe reaction, I fucking lost it. I cried. While professional dancers twerked on stage.
                     </Slimboi>
 
-                    <Vid src='https://www.youtube.com/embed/9BJj7cd4Vic' />
+                    <MainVid src='https://www.youtube.com/embed/9BJj7cd4Vic' />
 
                     <Slimboi>
                         When I Got Home is a monumental album. Solange flexes so fucking hard on this album, she literally had Sampha, Panda Bear and Tyler, The

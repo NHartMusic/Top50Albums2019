@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel'
 //ui
 import { Thiccboi, Slimboi } from '../ui/typography'
-import { DescriptionAlignment, Vid, Album, Details } from '../ui/display'
+import { DescriptionAlignment, MainVid, Album, Details } from '../ui/display'
+import { SmallerTablet, RegularBoyMobile, VideoMobile, SmallBoy } from '../ui/mediaQueries'
 import { JailorSerry, PupPup } from '../ui/colors'
 
 const GibbLib = styled(Album)`
@@ -19,6 +20,20 @@ const Bandana = styled(Details)`
     margin: 0 auto;
     background: ${PupPup};
     height: 470px;
+
+    @media ${SmallerTablet} {
+        height: 600px;
+    }
+
+   
+
+    @media ${VideoMobile} {
+        height: 600px;
+    }
+
+    @media ${SmallBoy} {
+        height: 650px;
+    }
 `
 
 export default function SimpleExpansionPanel() {
@@ -40,7 +55,7 @@ export default function SimpleExpansionPanel() {
                         in hip hop.
                     </Slimboi>
 
-                    <Vid src='https://www.youtube.com/embed/1alXHOMDBN4' />
+                    <MainVid src='https://www.youtube.com/embed/1alXHOMDBN4' />
 
                 </Bandana>
             </ExpansionPanel>
