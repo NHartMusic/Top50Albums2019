@@ -10,7 +10,6 @@ const Sir = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${PupPup};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Sir>
                 <Summer className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/ipvJ3BMdLzU' />
 
                 </Summer>
             </ExpansionPanel>

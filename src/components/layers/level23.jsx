@@ -10,7 +10,6 @@ const Jpeg = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${GothGirlfriend};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Jpeg>
                 <Corn className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/7Hs-PcBiRhA' />
 
                 </Corn>
             </ExpansionPanel>

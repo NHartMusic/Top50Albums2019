@@ -10,7 +10,6 @@ const Solange = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${SailorJerry};
-    height: 20px;
     box-shadow: 0px;
 `
 

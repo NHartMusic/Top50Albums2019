@@ -10,7 +10,6 @@ const Benny = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${JailorSerry};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -19,7 +18,7 @@ const City = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${Reptile};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Benny>
                 <City className={classes.root}>
 
-
+                    <Vid src='https://www.youtube.com/embed/tm6x0q2INSs' />
 
                 </City>
             </ExpansionPanel>

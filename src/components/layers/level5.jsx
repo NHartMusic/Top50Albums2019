@@ -10,7 +10,6 @@ const Weyes = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Wino};
-    height: 20px;
     box-shadow: 0px;
 `
 

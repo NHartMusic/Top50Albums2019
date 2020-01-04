@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { VideoMobile } from './mediaQueries'
 
 const Thiccboi = styled.h1`
     font-family: Helvetica;
@@ -7,6 +8,11 @@ const Thiccboi = styled.h1`
     font-size: 20px;
     font-weight: 800px;
     color: white;
+
+    @media ${VideoMobile} {
+        font-size: 14px;
+        font-weight: 600px;
+    }
 `
 
 const Slimboi = styled.p`
@@ -19,19 +25,8 @@ const Slimboi = styled.p`
     display: block;
 `
 
-const AlbumTitle = styled.p`
-    font-family: Helvetica;
-    text-decoration: italics;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 700px;
-    color: white;
-    margin: 50px;
-    display: block;
-`
-
 const Link = styled.a`
     color: white;
 `
 
-export { Thiccboi, Slimboi, AlbumTitle, Link }
+export { Thiccboi, Slimboi, Link }

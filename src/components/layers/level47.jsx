@@ -10,7 +10,6 @@ const Wand = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Perrywinkies};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -19,7 +18,7 @@ const Matter = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${GrunTee};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Wand>
                 <Matter className={classes.root}>
 
-
+                    <Vid src='https://www.youtube.com/embed/L0GWV8hIoH8' />
 
                 </Matter>
             </ExpansionPanel>

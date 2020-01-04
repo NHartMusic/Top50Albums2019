@@ -10,7 +10,6 @@ const Pup = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Wino};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -19,7 +18,7 @@ const Morbid = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${PupPup};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Pup>
                 <Morbid className={classes.root}>
 
-
+                    <Vid src='https://www.youtube.com/embed/AS7SkDA4z1Q' />
 
                 </Morbid>
             </ExpansionPanel>

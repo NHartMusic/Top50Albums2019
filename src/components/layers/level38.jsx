@@ -10,8 +10,6 @@ const Rapsody = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${GrunTee};
-    height: 20px;
-    box-shadow: 0px;
 `
 
 const Eve = styled(Details)`
@@ -19,7 +17,7 @@ const Eve = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${Cephalopod};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +31,7 @@ export default function SimpleExpansionPanel() {
                 </Rapsody>
                 <Eve className={classes.root}>
 
-
+                    <Vid src='https://www.youtube.com/embed/jhMk_wLm07E' />
 
                 </Eve>
             </ExpansionPanel>

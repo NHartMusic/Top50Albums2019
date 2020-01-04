@@ -10,7 +10,6 @@ const Toro = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Perrywinkies};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -19,7 +18,7 @@ const Peace = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${GothGirlfriend};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Toro>
                 <Peace className={classes.root}>
 
-
+                    <Vid src='https://www.youtube.com/embed/73Ppa6vQedk' />
 
                 </Peace>
             </ExpansionPanel>

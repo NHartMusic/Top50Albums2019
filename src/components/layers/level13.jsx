@@ -10,7 +10,6 @@ const Simz = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${GothGirlfriend};
-    height: 20px;
     box-shadow: 0px;
 `
 

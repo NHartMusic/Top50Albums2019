@@ -10,7 +10,6 @@ const Thief = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${JailorSerry};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Thief>
                 <Ufof className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/x6ykXocDhUY' />
 
                 </Ufof>
             </ExpansionPanel>

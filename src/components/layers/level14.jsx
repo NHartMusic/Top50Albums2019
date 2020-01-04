@@ -10,7 +10,6 @@ const Twigs = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Yurple};
-    height: 20px;
     box-shadow: 0px;
 `
 

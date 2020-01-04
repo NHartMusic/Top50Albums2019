@@ -10,7 +10,6 @@ const Clairo = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Yurple};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Clairo>
                 <Immunity className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/7zFJZtwY4tM' />
 
                 </Immunity>
             </ExpansionPanel>

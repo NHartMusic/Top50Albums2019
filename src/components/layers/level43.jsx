@@ -10,7 +10,6 @@ const Ty = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Cephalopod};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -19,7 +18,7 @@ const Taste = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${GrunTee};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Ty>
                 <Taste className={classes.root}>
 
-
+                    <Vid src='https://www.youtube.com/embed/mEdZoBlno2U' />
 
                 </Taste>
             </ExpansionPanel>

@@ -10,7 +10,6 @@ const Esme = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${GrunTee};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Esme>
                 <Nudes className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/MSF6IIMRkEA' />
 
                 </Nudes>
             </ExpansionPanel>

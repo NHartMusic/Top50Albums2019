@@ -10,7 +10,6 @@ const Brock = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${SailorJerry};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Brock>
                 <Ginger className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/hQoN8Daltfc' />
 
                 </Ginger>
             </ExpansionPanel>

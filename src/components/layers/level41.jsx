@@ -10,7 +10,6 @@ const Blood = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${PupPup};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -19,7 +18,7 @@ const Pulse = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${Yurple};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Blood>
                 <Pulse className={classes.root}>
 
-
+                    <Vid src='https://www.youtube.com/embed/l3Fc7qU-G_0' />
 
                 </Pulse>
             </ExpansionPanel>

@@ -10,7 +10,6 @@ const Nick = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Cephalopod};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -50,6 +49,10 @@ export default function SimpleExpansionPanel() {
                             <li>Tame Impala - Max Scmelling Halle, Berlin</li>
                             <li>The Cure - Flow Festival, Helsinki</li>
                         </ol>
+                    </Slimboi>
+
+                    <Slimboi>
+                        Here's a link to some <Link href='https://www.instagram.com/p/B6v8AGyofoz/'>photos</Link>
                     </Slimboi>
 
                 </Hart>

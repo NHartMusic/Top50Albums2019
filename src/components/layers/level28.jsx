@@ -10,7 +10,6 @@ const Thief = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Reptile};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Thief>
                 <Hands className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/k4uHHO-CjtA' />
 
                 </Hands>
             </ExpansionPanel>

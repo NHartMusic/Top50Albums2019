@@ -21,7 +21,6 @@ const Angel = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Yurple};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -32,31 +31,27 @@ const AllMirrors = styled(Details)`
     text-align: left;
 
     @media ${SmallDesktop} {
-        height: 1300px;
+        height: 950px;
     }
 
     @media ${Tablet} {
-        height: 1400px;
+        height: 1050px;
     }
 
     @media ${SmallerTablet} {
-        height: 1500px;
-    }
-
-    @media ${EvenSmallerTablet} {
-        height: 1600px;
+        height: 1200px;
     }
 
     @media ${BigBoyMobile} {
-        height: 1700px;
+        height: 1300px;
     }
 
     @media ${RegularBoyMobile} {
-        height: 1950px;
+        height: 1400px;
     }
 
     @media ${VideoMobile} {
-        height: 2200px;
+        height: 1700px;
     }
 
     @media ${SmallBoy} {

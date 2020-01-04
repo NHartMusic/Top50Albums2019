@@ -14,8 +14,12 @@ const DescriptionAlignment = makeStyles(theme => ({
 const Album = styled(ExpansionPanelSummary)`
     display: flex;
     margin: 0 auto;
-    height: 20px;
+    height: 50px;
     box-shadow: 0px;
+
+    @media ${VideoMobile} {
+       height: 70px;
+    }
 `
 
 const Details = styled(ExpansionPanelDetails)`

@@ -10,7 +10,6 @@ const Cherry = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${GrunTee};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -19,7 +18,7 @@ const Stuffed = styled(Details)`
     align-items: center;
     margin: 0 auto;
     background: ${Peaaches};
-    height: 400px;
+    height: 300px;
 `
 
 export default function SimpleExpansionPanel() {
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Cherry>
                 <Stuffed className={classes.root}>
 
-
+                    <Vid src='https://www.youtube.com/embed/YLZYJ-u3WMo' />
 
                 </Stuffed>
             </ExpansionPanel>

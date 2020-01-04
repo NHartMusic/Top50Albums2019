@@ -10,7 +10,6 @@ const GibbLib = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${JailorSerry};
-    height: 20px;
     box-shadow: 0px;
 `
 

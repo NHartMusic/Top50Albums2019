@@ -10,7 +10,6 @@ const French = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Peaaches};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </French>
                 <Myself className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/fOzfIX1Gy9g' />
 
                 </Myself>
             </ExpansionPanel>

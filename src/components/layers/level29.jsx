@@ -10,7 +10,6 @@ const Blake = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${JailorSerry};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Blake>
                 <Form className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/Ug_5d1HD9FA' />
 
                 </Form>
             </ExpansionPanel>

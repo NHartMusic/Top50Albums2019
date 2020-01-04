@@ -10,7 +10,6 @@ const Giz = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Cephalopod};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Giz>
                 <Fishies className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/-kE1S9olY6A' />
 
                 </Fishies>
             </ExpansionPanel>

@@ -10,7 +10,6 @@ const Woods = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${GrunTee};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Woods>
                 <Hiding className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/t1WBEi5LlkI' />
 
                 </Hiding>
             </ExpansionPanel>

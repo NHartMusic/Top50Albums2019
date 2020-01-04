@@ -10,7 +10,6 @@ const Thom = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${PupPup};
-    height: 20px;
     box-shadow: 0px;
 `
 
@@ -33,7 +32,7 @@ export default function SimpleExpansionPanel() {
                 </Thom>
                 <Anima className={classes.root}>
 
-                    
+                    <Vid src='https://www.youtube.com/embed/IZfCj7tuZ-E' />
 
                 </Anima>
             </ExpansionPanel>

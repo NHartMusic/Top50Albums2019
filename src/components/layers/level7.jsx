@@ -10,7 +10,6 @@ const Iver = styled(Album)`
     display: flex;
     margin: 0 auto;
     background: ${Perrywinkies};
-    height: 20px;
     box-shadow: 0px;
 `
 
